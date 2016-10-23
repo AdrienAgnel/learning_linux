@@ -9,6 +9,10 @@ mv [source_folder/file] [target_folder]
 To concatenate files or print files.
 cat [file]
 
+### ln
+Create a symlink.
+ln -s [target_file] [symlink_name]
+
 ### nano
 Command line text editor.
 nano [file_name]
