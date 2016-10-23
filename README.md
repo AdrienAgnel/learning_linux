@@ -16,6 +16,11 @@ Create a symlink.
 
 ln -s [target_file] [symlink_name]
 
+### ls
+List files and folder at given path.
+
+ls -l (one file one line view) -a (list all files, even hidden ones) [path/to/file-folder]
+
 ### nano
 Command line text editor.
 
@@ -26,3 +31,7 @@ nano [file_name]
 ### rm
 Remove some specified files.
 rm -f (force) -r (recursive) -v (verbose)
+
+### chmod
+Change file or folder access rights.
+
