@@ -34,4 +34,15 @@ rm -f (force) -r (recursive) -v (verbose)
 
 ### chmod
 Change file or folder access rights.
+chmod g-w [file_name] -> remove write permission to group
+chmod u-wr [file_name] -> remove read and write permission to user
+
+### chown
+Change file owner.
+chown root [file_name] -> make root the owner of the file
+
+### sudo
+Change users and rights.
+sudo su -> activate superuser
+type 'exit' to exit
 
