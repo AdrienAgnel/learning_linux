@@ -54,3 +54,12 @@ Change users and rights.
 sudo su -> activate superuser
 type 'exit' to exit
 
+### timux
+Manage several terminal windows.
+tmux -> start a new session
+In tmux, ctrl+b and then % -> vertical split
+In tmux, ctrl+b and then " -> horizontal split
+In tmux, ctrl+b and then c -> new window
+In tmux, ctrl+b and then d -> return to classic shell (dettach)
+tmux kill-session -t [session_id]
+See https://gist.github.com/henrik/1967800
