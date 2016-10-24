@@ -11,6 +11,10 @@ To concatenate files or print files.
 
 cat [file]
 
+### grep
+Filter folders, files or text based on a given set of characters.
+grep -n "[characters]" [file_name]
+
 ### ln
 Create a symlink.
 
@@ -40,6 +44,10 @@ chmod u-wr [file_name] -> remove read and write permission to user
 ### chown
 Change file owner.
 chown root [file_name] -> make root the owner of the file
+
+### sed
+(among others) remove first lines of a file
+sed -i [startIndex],[endIndex]d [file_name]
 
 ### sudo
 Change users and rights.
