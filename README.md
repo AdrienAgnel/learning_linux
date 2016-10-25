@@ -32,6 +32,10 @@ nano [file_name]
 
 ^X -> Exit
 
+### netstat
+Access server information: ports, processess, PID
+netstat -laputen
+
 ### rm
 Remove some specified files.
 rm -f (force) -r (recursive) -v (verbose)
