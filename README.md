@@ -63,6 +63,10 @@ Change users and rights.
 sudo su -> activate superuser
 type 'exit' to exit
 
+### ssh
+Connect to another machine.
+ssh -i [path/key] [user_name]@[other_machine_DNS]
+
 ### timux
 Manage several terminal windows.
 tmux -> start a new session
