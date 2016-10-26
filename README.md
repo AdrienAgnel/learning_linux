@@ -76,3 +76,10 @@ In tmux, ctrl+b and then c -> new window
 In tmux, ctrl+b and then d -> return to classic shell (dettach)
 tmux kill-session -t [session_id]
 See https://gist.github.com/henrik/1967800
+
+### VBoxManage
+Obviously, manage VirtualBox.
+VBoxManage list runningvms
+VBoxManage list vms
+VBoxManage controlvm \<name|uuid\> savestate -> gently power off vm (saving data)
+VBoxManage controlvm \<name|uuid\> poweroff -> not-gently power off
