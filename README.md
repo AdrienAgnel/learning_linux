@@ -1,4 +1,4 @@
-# Learning Linux
+# Basic command lines
 Chosen linux commands and how to use them ! (not all options are listed)
 
 ### cat
