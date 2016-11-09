@@ -92,3 +92,8 @@ Obviously, manage VirtualBox.
 * VBoxManage list vms
 * VBoxManage controlvm \<name|uuid\> savestate -> gently power off vm (saving data)
 * VBoxManage controlvm \<name|uuid\> poweroff -> not-gently power off
+### vim
+Use vim text editor.
+* :q! -> exit without saving
+* :wq -> write and quit
+* :%s/\<pattern\>/&/gn -> count the number of occurences of \<pattern\> in the file
