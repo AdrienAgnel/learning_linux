@@ -17,6 +17,7 @@ Change file owner.
 ### grep
 Filter folders, files or text based on a given set of characters.
 * grep -n "[characters]" [file_name]
+* grep -o "[pattern]" [path/to/file] | wc -l -> count occurences of a pattern in a file
 
 ### ln
 Create a symlink.
