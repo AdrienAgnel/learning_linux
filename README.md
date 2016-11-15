@@ -48,9 +48,9 @@ Remove some specified files.
 rm -f (force) -r (recursive) -v (verbose)
 
 ### scp
-Exchange files between servers and computers
-scp -i [key_path] [path/file_to_be_transfered] [path/file_destination]
-when connecting to AWS ubuntu instance : ubuntu@[server_public_DNS]:[path_in_server] 
+Exchange files between servers and computers.
+* scp -i [key_path] [path/file_to_be_transfered] [path/file_destination]
+* for instance, when connecting to AWS ubuntu instance : ubuntu@[server_public_DNS]:[path_in_server] 
 
 ### sed
 (among others) remove first lines of a file
