@@ -54,16 +54,17 @@ Exchange files between servers and computers.
 
 ### sed
 (among others) remove first lines of a file
-sed -i [startIndex],[endIndex]d [file_name]
+* sed -i [startIndex],[endIndex]d [file_name]
 
 ### sudo
 Change users and rights.
-sudo su -> activate superuser
+* sudo su -> activate superuser
 type 'exit' to exit
 
 ### ssh
 Connect to another machine.
-ssh -i [path/key] [user_name]@[other_machine_DNS]
+* ssh -i [path/key] [user_name]@[other_machine_DNS]
+* ssh [server_name]
 
 ### tar
 To create or decompress an archive.
