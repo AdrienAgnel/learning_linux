@@ -99,3 +99,4 @@ Use vim text editor.
 * :q! -> exit without saving
 * :wq -> write and quit
 * :%s/\<pattern\>/&/gn -> count the number of occurences of \<pattern\> in the file
+* :%s/<word1>.*<word2>/&/gn -> count the number of occurences for a pattern word1...(any sequence of characters)...word2, the order word1 word2 matters
