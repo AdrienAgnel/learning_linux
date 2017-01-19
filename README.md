@@ -14,6 +14,10 @@ Change file or folder access rights.
 Change file owner.
 * chown root [file_name] -> make root the owner of the file
 
+### docker
+Access a bash shell inside a docker container
+* docker exec -it [container_name] bash
+
 ### grep
 Filter folders, files or text based on a given set of characters.
 * grep -n "[characters]" [file_name]
