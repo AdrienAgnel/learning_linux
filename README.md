@@ -107,12 +107,23 @@ Use vim text editor.
 
 ## Configure new computer
 - update
+
     sudo apt-get update && sudo apt-get upgrade
+
 - git (required for oh my zsh)
+
     sudo apt-get install git
+
 - zsh
+
     sudo apt-get install zsh
+
 - oh-my-zsh
+
     sh -c "$(wget -O- https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
+
 - vim
+
     sudo apt-get install vim
+
+- docker [install doc ubuntu](https://docs.docker.com/install/linux/docker-ce/ubuntu/) and proceed with [postinstall](https://docs.docker.com/install/linux/linux-postinstall/)
