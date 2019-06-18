@@ -104,3 +104,15 @@ Use vim text editor.
 * :wq -> write and quit
 * :%s/\<pattern\>/&/gn -> count the number of occurences of \<pattern\> in the file
 * :%s/\<word1\>.*\<word2\>/&/gn -> count the number of occurences for a pattern word1...(any sequence of characters)...word2, the order word1 word2 matters
+
+## Configure new computer
+- update
+    sudo apt-get update && sudo apt-get upgrade
+- git (required for oh my zsh)
+    sudo apt-get install git
+- zsh
+    sudo apt-get install zsh
+- oh-my-zsh
+    sh -c "$(wget -O- https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
+- vim
+    sudo apt-get install vim
