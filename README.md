@@ -125,5 +125,10 @@ Use vim text editor.
 - vim
 
     sudo apt-get install vim
+    
+- tmux
+
+    sudo apt-get install tmux
 
 - docker [install doc ubuntu](https://docs.docker.com/install/linux/docker-ce/ubuntu/) and proceed with [postinstall](https://docs.docker.com/install/linux/linux-postinstall/)
+- docker compose [install doc](https://docs.docker.com/compose/install/)
