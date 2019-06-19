@@ -132,3 +132,9 @@ Use vim text editor.
 
 - docker [install doc ubuntu](https://docs.docker.com/install/linux/docker-ce/ubuntu/) and proceed with [postinstall](https://docs.docker.com/install/linux/linux-postinstall/)
 - docker compose [install doc](https://docs.docker.com/compose/install/)
+
+- install pip3 and others
+
+    sudo apt install python3-pip
+    pip3 install virtualenv
+    python3 -m pip install jupyter
