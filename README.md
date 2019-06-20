@@ -138,3 +138,15 @@ Use vim text editor.
     sudo apt install python3-pip
     pip3 install virtualenv
     python3 -m pip install jupyter
+    
+- install yarn
+
+ configure the repository: 
+ 
+  curl -sS https://dl.yarnpkg.com/debian/pubkey.gpg | sudo apt-key add -
+  echo "deb https://dl.yarnpkg.com/debian/ stable main" | sudo tee /etc/apt/sources.list.d/yarn.list
+ 
+ then enter:
+  
+  sudo apt-get update && sudo apt-get install yarn
+
