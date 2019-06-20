@@ -150,3 +150,6 @@ Use vim text editor.
   
   sudo apt-get update && sudo apt-get install yarn
 
+- install nvm (with zsh shell)
+
+  curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.34.0/install.sh | zsh
